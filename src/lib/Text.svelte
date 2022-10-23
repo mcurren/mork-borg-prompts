@@ -25,6 +25,6 @@
 	mark {
 		background-color: rgb(255,231,25);
 		border: 5px solid rgb(230,244,252);
-		margin: 0;
+		white-space: nowrap;
 	}
 </style>
