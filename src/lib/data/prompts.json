@@ -1,0 +1,66 @@
+{
+	"noun": [
+		"ziggurat",
+		"missing people",
+		"lair",
+		"key",
+		"wandering prophet",
+		"infamous bard",
+		"chosen one",
+		"holy relic",
+		"powerful tonic",
+		"jewel",
+		"remains of the dead",
+		"magical weapon"
+	],
+	"villain": [
+		"demon",
+		"mutant",
+		"hedge wizard",
+		"cultists",
+		"giant lizard",
+		"disaster",
+		"evil hag",
+		"undead",
+		"violent mob",
+		"sickness",
+		"mad emperor",
+		"mad scientist",
+		"ooze",
+		"hegemonizing swarm",
+		"priestess",
+		"exhiled ones",
+		"rumored monster",
+		"band of outlaws",
+		"darkness",
+		"basilisk"
+	],
+	"action": [
+		"laying waste to",
+		"corrupting",
+		"stealing",
+		"entrapping",
+		"consuming",
+		"finding out about"
+	],
+	"target": [
+		"our world",
+		"the townsfolk",
+		"the bridge",
+		"our magic",
+		"the water source",
+		"the monarch",
+		"an important relic",
+		"the children"
+	],
+	"time": [
+		"the true time",
+		"the next full moon",
+		"the monarch dies",
+		"tomorrow at dusk",
+		"the next baby is born",
+		"the witching hour begins",
+		"the great darkness",
+		"grandmother comes back"
+	]
+}
