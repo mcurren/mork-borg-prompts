@@ -8,7 +8,7 @@
 	}
 </script>
 
-<h1>"Find the <mark data-type="noun">{getWord('noun')}</mark> and stop the <mark data-type="villain">{getWord('villain')}</mark> from <mark data-type="action">{getWord('action')}</mark> <mark data-type="target">{getWord('target')}</mark> before <mark data-type="time">{getWord('time')}</mark>!"</h1>
+<h1>Find the <mark data-type="noun">{getWord('noun')}</mark> and stop the <mark data-type="villain">{getWord('villain')}</mark> from <mark data-type="action">{getWord('action')}</mark> <mark data-type="target">{getWord('target')}</mark> before <mark data-type="time">{getWord('time')}</mark>!</h1>
 
 <style>
 	h1 {
@@ -21,6 +21,12 @@
 		margin-bottom: clamp(2rem, 2vw + 1rem, 4rem);
 		line-height: 1.5;
 		text-transform: lowercase;
+	}
+	h1:before {
+		content: '\201C';
+	}
+	h1:after {
+		content: '\201D';
 	}
 	mark {
 		position: relative;
