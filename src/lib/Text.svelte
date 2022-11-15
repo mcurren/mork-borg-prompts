@@ -56,6 +56,14 @@ let hook = {
 		z-index: -1;
 		background: rgb(255,231,25);
 		background: linear-gradient(180deg, rgba(255,255,255,0) 37%, rgba(255,231,25,1) 37%, rgba(255,231,25,1) 76%, rgba(255,255,255,0) 76%);
+		opacity: 1;
+		transition: opacity 0.4s;
+	}
+	mark:hover {
+		color: rgb(230, 11, 11);
+	}
+	mark:hover:after {
+		opacity: 0;
 	}
 	button {
 		border: none;
@@ -65,5 +73,6 @@ let hook = {
 		background: none transparent;
 		color: inherit;
 		cursor: pointer;
+		transition: color 0.4s;
 	}
 </style>

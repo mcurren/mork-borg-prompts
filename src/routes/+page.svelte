@@ -54,7 +54,7 @@
 	button:hover,
 	button:focus,
 	button:active {
-		background: red;
+		background: rgb(230, 11, 11);
 	}
 	button:active {
 		transform: translateY(5px);
