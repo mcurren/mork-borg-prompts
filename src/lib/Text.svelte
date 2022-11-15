@@ -23,8 +23,19 @@
 		text-transform: lowercase;
 	}
 	mark {
-		background-color: rgb(255,231,25);
-		border: 5px solid rgb(230,244,252);
+		position: relative;
 		white-space: nowrap;
+		background: none transparent;
+	}
+	mark:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: -0.03125em;
+		bottom: 0;
+		left: -0.03125em;
+		z-index: -1;
+		background: rgb(255,231,25);
+		background: linear-gradient(180deg, rgba(255,255,255,0) 37%, rgba(255,231,25,1) 37%, rgba(255,231,25,1) 76%, rgba(255,255,255,0) 76%);
 	}
 </style>
