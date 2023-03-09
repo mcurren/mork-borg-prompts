@@ -4,10 +4,20 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
-		<title>Mörk Bork Prompts</title>
+		<title>Mörk Bork Adventure Prompt Generator</title>
+		<style>
+			#app {
+				width: 100%;
+				min-height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+			}
+		</style>
 		%sveltekit.head%
 	</head>
 	<body>
-		<div>%sveltekit.body%</div>
+		<div id="app">%sveltekit.body%</div>
 	</body>
 </html>
