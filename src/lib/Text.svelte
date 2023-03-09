@@ -20,7 +20,18 @@ let hook = {
 };
 </script>
 
-<h1>Find the <mark><button on:click={() => changePrompt('noun')}>{hook.noun}</button></mark> and stop the <mark><button on:click={() => changePrompt('villain')}>{hook.villain}</button></mark> from <mark><button on:click={() => changePrompt('action')}>{hook.action}</button></mark> <mark><button on:click={() => changePrompt('target')}>{hook.target}</button></mark> before <mark><button on:click={() => changePrompt('time')}>{hook.time}</button></mark>!</h1>
+<h1>
+	Find the
+	<mark><button on:click={() => changePrompt('noun')}>{hook.noun}</button></mark>
+	and stop the
+	<mark><button on:click={() => changePrompt('villain')}>{hook.villain}</button></mark>
+	from
+	<mark><button on:click={() => changePrompt('action')}>{hook.action}</button></mark>
+	the
+	<mark><button on:click={() => changePrompt('target')}>{hook.target}</button></mark>
+	before
+	<mark><button on:click={() => changePrompt('time')}>{hook.time}</button></mark>
+</h1>
 
 <style>
 	h1 {
@@ -36,7 +47,7 @@ let hook = {
 		content: '\201C';
 	}
 	h1:after {
-		content: '\201D';
+		content: '!\201D';
 	}
 	mark {
 		display: inline-block;
