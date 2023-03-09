@@ -143,13 +143,14 @@ footer img {
 		text-align: left;
 		grid-area: 1;
 		margin: 0;
+		align-self: end;
 	}
 	footer > a {
 		justify-self: end;
 		grid-area: 1 / 2;
 	}
 	footer img {
-		width: 120px;
+		width: 160px;
 	}
 }
 </style>

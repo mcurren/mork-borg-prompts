@@ -43,12 +43,12 @@ let hook = {
 		line-height: 1.5;
 		text-transform: lowercase;
 	}
-	h1:before {
+	/* h1:before {
 		content: '\201C';
 	}
 	h1:after {
 		content: '!\201D';
-	}
+	} */
 	mark {
 		display: inline-block;
 		position: relative;
